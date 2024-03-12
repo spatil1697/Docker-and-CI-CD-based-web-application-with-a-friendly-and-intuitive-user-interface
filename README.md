@@ -1,4 +1,4 @@
-# Docker-and-CI-CD-based-web-application-with-a-friendly-and-intuitive-user-interface
+# Docker and CI/CD-based web application with a friendly and intuitive user interface
 
 This is a web-based Coffee Shop application. The idea for this application arose from the popularity of coffee in offices. Imagine having a centralized store in large offices from which coffee can be delivered online through a centralized application. Employees would save a lot of time, and companies could save money on coffee machines.
 

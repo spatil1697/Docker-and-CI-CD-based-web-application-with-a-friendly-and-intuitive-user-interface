@@ -2,17 +2,17 @@
 This is a web-based Coffee Shop application. The idea for this application arose from the popularity of coffee in offices. Imagine having a centralized store in large offices from which coffee can be delivered online through a centralized application. Employees would save a lot of time, and companies could save money on coffee machines.
 
 📦 Technologies
-React Js
-Tailwind CSS
-Redux
-context API
-Django
-JWT
-SQL lite
-Docker
-GitHub actions
-nginx load balancer
-Selenium Testing.
+-React Js
+-Tailwind CSS
+-Redux
+-context API
+-Django
+-JWT
+-SQL lite
+-Docker
+-GitHub actions
+-nginx load balancer
+-Selenium Testing.
 
 ✨Features
 Here's what you can do with Coffee Shop Web Application:
@@ -21,7 +21,8 @@ Sign Up: Users can register on the application using their email, name, and pass
 
 Login: Users can log in using their credentials, and the verification is checked in the backend using JWT authentication. If the user exists in the database, an authentication token is assigned to the user and stored in the browser's local storage for 90 days. After 90 days, if the user is still logged in, the authentication token is renewed.
 
-products: User can select diffrent products and add to cart.
+
+Products: Users can select different products and add them to their cart.
 
 Profile: Users can access their profile from the frontend by clicking on their name in the navigation bar.
 
@@ -34,7 +35,7 @@ Devops: For version control GitHub is used, and CI/CD pipeline is established us
 Add more autherization feature.
 Add Payment fuctionality.
 
-🖼️🖼 Screen Shots
+🖼️Screen Shots
 ![Home_page](https://github.com/spatil1697/Docker-and-CI-CD-based-web-application-with-a-friendly-and-intuitive-user-interface-/assets/110406683/1ea63ba3-c24c-4b70-82ef-4d0589f859f4)
 
 ![coffee_Menu](https://github.com/spatil1697/Docker-and-CI-CD-based-web-application-with-a-friendly-and-intuitive-user-interface-/assets/110406683/621c5037-fa9c-4e58-85c9-6228aa1990b1)

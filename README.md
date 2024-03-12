@@ -1,48 +1,59 @@
-#Docker-and-CI-CD-based-web-application-with-a-friendly-and-intuitive-user-interface
+# Docker-and-CI-CD-based-web-application-with-a-friendly-and-intuitive-user-interface
 
-This is a web-based Coffee Shop application designed to streamline the coffee ordering process in offices. The idea stemmed from the widespread popularity of coffee in workplace settings. Imagine having a centralized store within large offices where employees can order coffee online through a user-friendly application. This not only saves time for employees but also helps companies save on expenses associated with coffee machines.
+This is a web-based Coffee Shop application. The idea for this application arose from the popularity of coffee in offices. Imagine having a centralized store in large offices from which coffee can be delivered online through a centralized application. Employees would save a lot of time, and companies could save money on coffee machines.
 
-📦 ## Technologies
 
-React Js
-Tailwind CSS
-Redux
-Context API
-Django
-JWT
-SQLite
-Docker
-GitHub Actions
-NGINX load balancer
-Selenium Testing.
+## 📦 Technologies 
 
-✨ ## Features
+* React Js
+* Tailwind CSS
+* Redux
+* Context API
+* Figma
+* Django
+* JWT
+* SQLite
+* Docker
+* GitHub Actions
+* NGINX load balancer
+* Selenium Testing.
+
+## ✨ Functionalities
 Here's what you can do with the Coffee Shop Web Application:
 
-Sign Up:
-Users can register on the application using their email, name, and password. Password verification is required by retyping it for accuracy. Upon clicking the sign-up button, the backend generates a password hash and stores it in the database.
+### Sign Up:
+* Users can register on the application using their email, name, and password. 
+* To ensure accuracy, users are required to retype their password for verification.
+* Once the user clicks on the sign-up button, the backend generates a hash of the password and stores it in the database.
 
-Login:
-Users can log in using their credentials, with backend verification using JWT authentication. Upon successful verification, an authentication token is assigned to the user and stored in the browser's local storage for 90 days. Token renewal occurs automatically after 90 days if the user remains logged in.
+### Login:
+* Users can log in using their credentials, with backend verification using JWT authentication. 
+* Upon successful verification, an authentication token is assigned to the user and stored in the browser's local storage for 90 days. 
+* Token renewal occurs automatically after 90 days if the user remains logged in.
 
-Products:
-Users can browse and select different products to add to their cart.
+### Products:
+* Users can select different products and add them to their cart.
 
-Profile:
-Users can access their profile by clicking on their name in the navigation bar, allowing them to view and update their information.
+### Profile:
+* Users can access their profile by clicking on their name in the navigation bar, allowing them to view their information.
 
-Cart:
-Within the cart, users can adjust the quantity of selected items or remove them entirely. The cart dynamically updates to display the total price and quantity of items added.
+### Cart:
+* Within the cart, users can adjust the quantity of selected items or remove them entirely.
+* The cart dynamically updates to display the total price and quantity of items added.
 
-DevOps:
-For version control, GitHub is utilized, and a CI/CD pipeline is established using GitHub Actions. Upon code push, the pipeline triggers, initiating Selenium tests to ensure the correct loading of the Login page. Subsequently, a new code image is generated and deployed to the local server. Two servers are deployed, managed by an NGINX load balancer for optimal load distribution. Watchtower continually monitors for new images, utilizing round-robin technique for load balancing across servers.
+### DevOps:
+* For version control, GitHub is utilized and a CI/CD pipeline is created using GitHub Actions. 
+* Whenever code is pushed to GitHub, the pipeline triggers. Initially, Selenium tests ensure that the Login page loads correctly. 
+* Subsequently, a new image is generated and deployed to the local server. 
+* Two servers are deployed, managed by an NGINX load balancer for optimal load distribution. 
+* Watchtower continually monitors for new images, utilizing round-robin technique for load balancing across servers.
 
-💭 ## How can it be improved?
+## 💭 How can it be improved? 
 
-Add additional authorization features.
-Implement payment functionality.
+* Add additional authorization features.
+* Add payment functionality.
 
-🖼️ ## Screenshots
+## 🖼️ Screenshots 
 
 ![Home_page](https://github.com/spatil1697/Docker-and-CI-CD-based-web-application-with-a-friendly-and-intuitive-user-interface-/assets/110406683/1ea63ba3-c24c-4b70-82ef-4d0589f859f4)
 

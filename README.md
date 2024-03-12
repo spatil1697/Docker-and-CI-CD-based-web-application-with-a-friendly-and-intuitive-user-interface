@@ -16,10 +16,10 @@ This is a web-based Coffee Shop application. The idea for this application arose
 * Docker
 * GitHub Actions
 * NGINX load balancer
-* Selenium Testing.
+* Selenium Testing
 
 ## ✨ Functionalities
-Here's what you can do with the Coffee Shop Web Application:
+Here is what you can do with the Coffee Shop Web Application:
 
 ### Sign Up:
 * Users can register on the application using their email, name, and password. 

@@ -1,3 +1,5 @@
+#Docker-and-CI-CD-based-web-application-with-a-friendly-and-intuitive-user-interface
+
 This is a web-based Coffee Shop application designed to streamline the coffee ordering process in offices. The idea stemmed from the widespread popularity of coffee in workplace settings. Imagine having a centralized store within large offices where employees can order coffee online through a user-friendly application. This not only saves time for employees but also helps companies save on expenses associated with coffee machines.
 
 📦 ## Technologies

@@ -58,7 +58,7 @@ Here is what you can do with the Coffee Shop Web Application:
 * Whenever code is pushed to GitHub, the pipeline triggers. Initially, Selenium tests ensure that the Login page loads correctly. 
 * Subsequently, a new image is generated and deployed to the local server. 
 * Two servers are deployed, managed by an NGINX load balancer for optimal load distribution. 
-* Watchtower continually monitors for new images, utilizing round-robin technique for load balancing across servers.
+* Watchtower continually monitors for new Docker images and automatically updates running containers with the latest versions.
 
 ## 💭 How can it be improved? 
 
